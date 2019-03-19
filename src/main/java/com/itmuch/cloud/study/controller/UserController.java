@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class UserController {
 
-  @RequestMapping("/{id}")
+  @RequestMapping("/ddw/{id}")
   public String findById(@PathVariable Long id) {
     return id.toString();
   }
